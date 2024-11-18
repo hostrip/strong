@@ -1,0 +1,118 @@
+.profileContainer {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: var(--app-dark);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profileHeader h2 {
+  margin: 0.5rem 0;
+  color: var(--app-text);
+}
+
+.profileHeader p {
+  color: var(--app-text-secondary);
+  margin: 0;
+}
+
+.profileInfo {
+  padding: 1rem 0;
+}
+
+.infoItem {
+  margin-bottom: 1rem;
+  color: var(--app-text);
+}
+
+.infoItem span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.profileForm {
+  padding: 1rem 0;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--app-text);
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--app-border);
+  border-radius: 4px;
+  background-color: var(--app-light);
+  color: var(--app-text);
+}
+
+.formGroup textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.editButton,
+.saveButton,
+.cancelButton,
+.logoutButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.editButton {
+  background-color: var(--app-primary);
+  color: white;
+}
+
+.saveButton {
+  background-color: var(--app-success);
+  color: white;
+}
+
+.cancelButton {
+  background-color: var(--app-gray);
+  color: var(--app-text);
+}
+
+.logoutButton {
+  background-color: var(--app-danger);
+  color: white;
+}
+
+.editButton:hover,
+.saveButton:hover,
+.cancelButton:hover,
+.logoutButton:hover {
+  opacity: 0.9;
+}
